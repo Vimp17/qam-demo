@@ -5,17 +5,16 @@
 ## Структура проекта
 
 qam-demo/
-├── go.mod
-├── main.go
-├── pkg/
-│ ├── modulation/
-│ │ ├── qam16.go # 16-QAM модуляция/демодуляция
-│ │ └── noise.go # Добавление гауссовского шума
-│ └── utils/
-│ └── bit_utils.go # Утилиты для работы с битами
-├── Dockerfile
-└── README.md
-
+├── 📄 go.mod # Go модули и зависимости
+├── 🚀 main.go # Основная программа
+├── 📦 pkg/
+│ ├── 📡 modulation/
+│ │ ├── 🎛️ qam16.go # 16-QAM модуляция/демодуляция
+│ │ └── 🌫️ noise.go # Добавление гауссовского шума
+│ └── 🔧 utils/
+│ └── 💡 bit_utils.go # Утилиты для работы с битами
+├── 🐳 Dockerfile # Конфигурация Docker
+└── 📖 README.md # Документация
 
 
 ## Функциональность
@@ -37,7 +36,7 @@ qam-demo/
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/your-username/qam-demo.git
+git clone https://github.com/Vimp17/qam-demo.git
 cd qam-demo
 
 # Сборка и запуск
