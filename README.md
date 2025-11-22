@@ -27,7 +27,7 @@ markdown
 
 ## 📁 Структура проекта
 qam-demo/
-├── go.mod # Go модули и зависимости
+├── go.mod # Go модули и зависимости 
 ├── main.go # Основная программа
 ├── pkg/
 │ ├── modulation/
@@ -56,16 +56,23 @@ cd qam-demo
 
 # Сборка проекта
 go build -o qam-demo
+```
 
 # Запуск
+```bash
 ./qam-demo "Hello World" 0.1
 Запуск через Docker
-bash
-# Сборка Docker образа
-docker build -t qam-demo .
+```
 
+# Сборка Docker образа
+```bash
+docker build -t qam-demo .
+```
 # Запуск контейнера
+```bash
 docker run qam-demo "Тестовое сообщение" 0.2
+```
+
 💻 Использование
 Синтаксис команды
 bash
