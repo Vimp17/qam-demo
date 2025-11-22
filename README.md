@@ -95,8 +95,9 @@ _Параметры_
 ```
 Ожидаемый вывод:
 
-Original message: Hello QAM
-Received message: Hello QAM
+Original message: Hello QAM ...
+
+Received message: Hello QAM...
 Bit errors: 0
 BER: 0.00%
 
