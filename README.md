@@ -95,10 +95,12 @@ _Параметры_
 ```
 Ожидаемый вывод:
 
-Original message: Hello QAM ...
+Original message: Hello QAM
 
-Received message: Hello QAM...
+Received message: Hello QAM
+
 Bit errors: 0
+
 BER: 0.00%
 
 ### Пример 2: Средний уровень шума
@@ -109,8 +111,11 @@ BER: 0.00%
 
 
 Original message: Test Message
-Received message: Test Mess ge
+
+Received message: Test Message
+
 Bit errors: 3
+
 BER: 2.34%
 
 
